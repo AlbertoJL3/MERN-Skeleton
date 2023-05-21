@@ -1,6 +1,6 @@
 import express from 'express'
-//comment out when in production
-import devBundle from './devBundle'
+// //comment out when in production
+// import devBundle from './devBundle'
 import path from 'path'
 import template from './../template'
 import { MongoClient } from 'mongodb'
@@ -10,8 +10,8 @@ let port = process.env.PORT || 3000
 
 const app = express()
 const CURRENT_WORKING_DIR = process.cwd()
-//comment out when in production
-devBundle.compile(app)
+// //comment out when in production
+// devBundle.compile(app)
 MongoClient.connect(url, (err,db) =>{
     console.log("Connected succesfully to mongodb server")
     db.close()
