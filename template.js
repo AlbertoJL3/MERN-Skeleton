@@ -6,7 +6,7 @@ export default () => {
     <title>MERN Kickstart</title>
     </head>
     <body>
-    <div id="root><p>ASKDJFL;AKSDJFLKASDJFAL;SKDFJ</p></div>
+    <div id="root></div>
     <script type="text/javascript" src="/dist/bundle.js">
     </script>
     </body>
